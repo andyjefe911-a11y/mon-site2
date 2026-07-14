@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+.all-content{
+    background: #f2f5f7;
+} 
+html ::-webkit-scrollbar-track{
+    background: transparent;    
+}
+html ::-webkit-scrollbar-thumb{
+    background: #b2744c;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+     width: 10px;
+}
+
+/* navbar start */
+#navbar{
+    background-color: #b2744c;
+}
+
+#logo img{
+    border-radius: 10px;
+    width: 110px;
+    margin-left: 40px;
+    height: 60px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+#navbar form button:hover{
+    color: bisque;
+    transition: 0.5s;
+}
+
+                                            /*Home section start*/
+#home{
+    width: 100%;
+    height: 110vh;
+    background-image: url(image6.jpeg);
+    background-repeat: norepeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content{
+    padding-top: 200px;
+    margin-left: 50px;
+    text-align: left;
+
+}
+#home .content h3{
+    font-size: 70px;
+    color: #f2f5f7;
+}
+#home .content p{
+    color: white;
+    font-size: 30px;
+}
+#btn{
+    width: 200px;
+    margin-top: 20px;
+    height: 50px;
+    background: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#btn:hover{
+    background: #b2744c;
+    transition: 0.5s;
+    color: white;
+}
+                                            /*Home section end*/
+
+                                            /*About section start*/
+#about{
+    width: 100%;
+    height: 90vh;
+}
+
+#about .container{
+    padding-top: 70px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.heading span{
+    color: #b2744c;
+}
+#about .card{
+    border-radius: 10px;
+    margin-top: 1px;
+}
+#about .card img{
+    border-radius: 10px;
+    margin-top: 1px;
+    transition: transform 0.4s ease;
+}
+#about .card img:hover{
+    transform: scale(1.1);
+}
+#about-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    font-weight: bold;
+    color: #ffa970;
+    transition: 0.5s;
+    border: 2px solid #b2744c;
+    
+}
+#about-btn:hover{
+    background: gray;
+    border-radius: 10px;
+    transition: filter 0.4s ease;
+    transform: scale(1.1);
+}
+                                        /*About section end*/
+
+                                        /* top categories start */
+#top card{
+    width: 100%;
+    height: 50vh;
+    background: #f2f5f7;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;  
+}
+
+.heading2 span{
+    color: #b2744c;
+}
+
+#top-card .container{
+    margin-top: 30px;
+}
+
+#top-card .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#top-card .card img{
+    border-radius: 10px;
+}
+
+#top-card .card:hover{
+    transform: scale(1.1);
+}
+
+                                            /* Top categories end  */
+
+
+                                            /* menu start */
+#menu{
+    width: 100%;
+}
+.heading3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #b2744c;
+    border-bottom: 2px solid #ffa970;
+}
+
+#container2{
+    margin-top: 30px;
+}
+
+#container2 .card{
+    box-shadow: rgba(149, 150, 165, 0.2) 0px 8px 24px; 
+}
+ .star i{
+    color: #b2744c;
+ }
+#menu h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #b2744c;
+    font-size: 30px;
+}
+
+#menu p{
+    font-size: 20px;
+    color: #b2744c;
+    margin-top: 10px;
+
+}
+#menu p span{
+    color: #b2744c;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+                                            /* menu end */
+
+/* product section start */
+#product{
+    width: 100%;
+}
+#product .heading4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #b2744c;
+    border-bottom: #b2744c 2px solid;
+    margin-top: 10px;
+}
+#product #cart{
+    box-shadow: rgba(149, 150, 165, 0.2) 0px 5px 12px;
+    cursor: pointer;
+}
+
+
+/* product section end */
+
+/* gallary section start */
+#gallary{
+    width: 100%;
+}
+#gallary .heading6{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+}
+#gallary span{
+    color: #b2744c;
+}
+
+#container-gallary{
+    margin-top: 20px;
+}
+
+#gallary .card{
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#gallary .card img{
+    border-radius: 10px;
+}
+#gallary .card:hover{
+    transform: scale(1.1);
+}
+/* gallary section end */
+
+/* contact start */
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contact .container{
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(90deg, #f2f5f7 80%, #b2744c 20%);
+    border-radius: 10px;
+}
+
+#contact .heading9{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact .heading9 span{
+    color: #b2744c;
+}
+
+#info {
+    border-left: #b2744c 2px solid;
+    text-align: center;
+    border-radius: 10px;
+    background: black;
+    width: 30%;
+    height: 40vh;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ 
+#contact-btn{
+    border-radius: 10px;
+    width: 150px;
+    height: 48px;
+    background: #b2744c;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid #b2744c;
+}
+
+#contact-btn:hover{
+    transform: scale(1.1);
+    background-color: #f2f5f7;
+}
+
+#fo-fond{
+    color: black;
+}
+ #contact .col{
+    color: black;
+    margin: 10px;
+    margin-left: 15px;
+
+ }
+
+ #contact p{
+    color: white;
+ }
+#contact h2{
+    color: white;
+}
+
+#contact input{
+    width: 550px;
+     border-bottom: 1px #b2744c solid;
+}
+
+#contact span{
+    color: black;
+}
+/* contact end */
+
+                                            
